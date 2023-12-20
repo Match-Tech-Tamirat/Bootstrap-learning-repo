@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./node_modules/bootswatch/dist/sandstone/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/jquery/dist/jquery.min.js">
+  <link rel="stylesheet" href="./node_modules/bootstrap/js/bootstrap.min.js">
+  
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <title>Bootstrap Page</title>
+
+  <style>
+    body {
+      position: relative;
+      display: grid;
+      padding: 10px;
+      gap: 3%;
+      background-color: rgb(117, 117, 117);
+      color: white;
+    }
+
+    .rounded {
+      width: 200px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <h1>My First Bootstrap Page</h1>
+    <p>This is some text.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+  </div>
+  <div class="row">
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+  </div>
+  <div class="row">
+    ...
+  </div>
+  <div class="row">
+    <div class="col-sm-4">.col-sm-4</div>
+    <div class="col-sm-4">.col-sm-4</div>
+    <div class="col-sm-4">.col-sm-4</div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">.ecol-sm-4</div>
+    <div class="col-sm-8">.col-sm-8</div>
+  </div>
+
+  <!--Bootstrap's Default -->
+  <h1 class="mx-auto p-2 text-success border border-success border-5">botsram default</h1>
+  <div class="container bg-black">
+    <p class="mx-auto p-2 text-success border border-success border-5">botsram default</p>
+    <h1>h1 Bootstrap heading (36px)</h1>
+    <h2>h2 Bootstrap heading (30px)</h2>
+    <h3>h3 Bootstrap heading (24px)</h3>
+    <h4>h4 Bootstrap heading (18px)</h4>
+    <h5>h5 Bootstrap heading (14px)</h5>
+    <h6>h6 Bootstrap heading (12px)</h6>
+  </div>
+
+  <!--small-->
+  <div class="container bg-primary">
+    <h1>Lighter, Secondary Text</h1>
+    <p class="mx-auto p-2 text-success border border-success border-5">The small element is used to create a lighter,
+      secondary text in any heading:</p>
+    <h1>h1 heading <small>secondary text</small></h1>
+    <h2>h2 heading <small>secondary text</small></h2>
+    <h3>h3 heading <small>secondary text</small></h3>
+    <h4>h4 heading <small>secondary text</small></h4>
+    <h5>h5 heading <small>secondary text</small></h5>
+    <h6>h6 heading <small>secondary text</small></h6>
+  </div>
+
+
+  <!--mark-->
+  <div class="container bg-warning">
+    <p class="mx-5 p-2 text-success border border-success border-5">booterap mark</p>
+    <p>Use the mark element to <mark>hight</mark> text.</p>
+  </div>
+
+  <!--abbreviation-->
+  <div class="container bg-info">
+    <h1 class="mx-5 border border-5 border-success text-warning">Abbreviations</h1>
+    <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+    <p>The <abbr title="it is word wide web"><mark class="bg-warning">www</mark></abbr> was founded in 1948.</p>
+  </div>
+
+  <div class="container bg-secondary">
+    <h1 class="border border-5 border-info obg-warning text-info">Blockquotes</h1>
+    <p>The blockquote element is used to present content from another source:</p>
+    <blockquote class="sm-*-">
+      <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+        works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+        globally.</p>
+      <img class="img-fluid rounded" src="./image/fabrizio-conti-kXVogATbFgA-unsplash.jpg" alt="">
+      <footer>From WWF's website</footer>
+    </blockquote>
+  </div>
+
+  <div class="container bg-dark-subtle p-5">
+    <h1 class="border border-5 border-success text-success">Description Lists</h1>
+    <p class="text-info">The dl element indicates a description list:</p>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+  </div>
+
+  <div class="container bg-black p-4">
+    <h1 class="border border-5 border-secondary text-info">Code Snippets</h1>
+    <p class="text-right">Inline snippets of code should be embedded in the code element:</p>
+    <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a
+      document.</p>
+
+
+    <div class="container bg-info table-condensed">
+      <h2 class="border border-5 text-warning">Typography</h2>
+      <p class="text-left">Left-aligned text.</p>
+      <p class="text-right">Right-aligned text.</p>
+      <p class="text-center">Center-aligned text.</p>
+      <p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text. Justified
+        text.</p>
+      <p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text.</p>
+      <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>
+    </div>
+  </div>
+
+  <!--Start Bootstrap Basic Table-->
+
+  <div class="container bg-warning">
+    <h2>Basic Table</h2>
+    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+
+  <div class="container bg-info-subtle p-3">
+    <h2 class="bg-black text-bg-danger">Striped Rows</h2>
+    <p>The .table-striped class adds zebra-stripes to a table:</p>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="container bg-secondary p-3">
+    <h2 class="text-info border border-3 border-info">Hover Rows</h2>
+    <p>The .table-hover class enables a hover state on table rows:</p>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>first_name</th>
+          <th>last_name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container bg-info">
+    <h2>Contextual Classes</h2>
+    <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active,
+      .success, .info, .warning, and .danger.</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Default</td>
+          <td>Defaultson</td>
+          <td>def@somemail.com</td>
+        </tr>
+        <tr class="success">
+          <td>Success</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr class="danger">
+          <td>Danger</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr class="info">
+          <td>Info</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr class="table-warning">
+          <td>Warning</td>
+          <td>Refs</td>
+          <td>bo@example.com</td>
+        </tr>
+        <tr class="active">
+          <td>Active</td>
+          <td>Activeson</td>
+          <td>act@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container bg-black">
+    <h2>Table</h2>
+    <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under
+      768px). When viewing on anything larger than 768px wide, there is no difference:</p>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Anna</td>
+            <td>Pitt</td>
+            <td>35</td>
+            <td>New York</td>
+            <td>USA</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  add
+
+  <!--End Bootstrap Basic Table-->
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
